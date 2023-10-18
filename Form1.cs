@@ -36,8 +36,8 @@ namespace PilasDinamicas
             int num= int.Parse(txtDts1.Text);
             p1.Push(ref p1, num);
             p1.DesplegarPila(p1, listBox1);
-            //txtDts.Clear();
-            //txtDts.Focus();
+            txtDts1.Clear();
+            txtDts1.Focus();
         }
 
         private void btnPop_Click(object sender, EventArgs e)
